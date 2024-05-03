@@ -11,8 +11,14 @@ A wallet app made with Unity that tracks for spends by reading your bank SMS.
 <img src="https://github.com/naved1197/MoneyMonitorUnity/assets/96604519/18e221d5-10f7-4c38-aaff-f5d3241f1ece" width="160" height="316">
 
 # Installation
+- Select android as build target
 - Download the latest Firebase unity package https://firebase.google.com/download/unity
-- Import the following Firebase unity package Analytics, Crashlytics, Messaging, Remote Config 
+- Import the following Firebase unity package Analytics, Crashlytics, Messaging, Remote Config
+- Create a new project on Firebase enable the above mentioned services
+- Import google-services.json in the assets folder
+- Add App scene to the build settings
+- Force resolve the android dependencies
+- Done!
 
 # Android Plugin
 [https://github.com/naved1197/MoneyMonitorPlugin](url)
