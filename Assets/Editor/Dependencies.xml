@@ -1,0 +1,7 @@
+<dependencies>
+  <androidPackages>
+			<androidPackage spec="androidx.appcompat:appcompat:1.4.0"/>
+			<androidPackage spec="com.google.android.material:material:1.4.0"/>
+			<androidPackage spec="androidx.constraintlayout:constraintlayout:2.1.2"/>
+  </androidPackages>
+</dependencies>

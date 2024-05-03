@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e00da90910732694a9f3b43cd0730079, type: 3}
+  m_Name: Firebase Data
+  m_EditorClassIdentifier: 
+  firebaseAnalyticsData:
+    EnableAnalytics: 1
+    SessionDurationInMinutes: -1
+    UserId: 
+    userProperties: []
+    AnalyticsDebugCommand: adb shell setprop debug.firebase.analytics.app PACKAGE_NAME
+    AnalyticsDisableDebugCommand: adb shell setprop debug.firebase.analytics.app
+      .none.
+  firebaseRemoteConfigData:
+    cacheExpirationInMinutes: 0
+    EnableRealTimeUpdates: 0
+    stringValues:
+    - key: stringLibs
+      value: '{     "libraries": [         {             "name": "System",            
+        "stringLibraries": [                 {                     "name": "SavePath",                    
+        "value": "/game_data"                 }             ]         },        
+        {             "name": "CheckPatterns",             "stringLibraries": [                
+        {                     "name": "accountPattern",                     "value":
+        "\\b(?:ac|a/c|paytm|amazon pay|upi|CARD|account)\\b"                 },                
+        {                     "name": "creditPattern",                     "value":
+        "\\b(?:credited|received|repayment|credit by)\\b"                 },                
+        {                     "name": "debitPattern",                     "value":
+        "\\b(?:debited|paid|sent|transaction|spent|transferred from)\\b"                
+        },                 {                     "name": "amountPattern",                    
+        "value": "rs|usd|inr "                 },                 {                    
+        "name": "blackListPattern",                     "value": "\\b(?:HURRRY|SOON|EXPIRES|will
+        be|can be|eligible|hi|attachments|due|IPO|Fantasy|win|declined|off|cashback|choose|loan|Bonus|Prize|working|Instant|Free|recharge|Shop|Install|save|claim|Register)\\b"                
+        }             ]         },         {             "name": "ExtractPatterns",            
+        "stringLibraries": [                 {                     "name": "amountPatternExtract",                    
+        "value": "(?<=\\bRs|INR |Rs.\\s?)\\d+(?:,\\d+)*(\\.\\d+)?"                
+        },                 {                     "name": "debitAccountPatternExtract",                    
+        "value": "(?<=(credited to|at|paid.*? to|sent to|by|to:)\\s?).*?(?=\\s(with|-Ref|UPI
+        |against|from|on|total))"                 },                 {                    
+        "name": "creditAccountPatternExtract",                     "value": "(?<=(by|to:|Ref
+        No|transferred to)\\s?).*?(?=\\s(of|with|-Ref|UPI |against|from|on|total|avl
+        balance))"                 },                 {                     "name":
+        "accountNumberPatternExtract",                     "value": "(?<=(?i)\\b(?:a\\/c|credit
+        card|ac-|a\\/c no. |Card no. |account|card ending |a\\/c ...|Card no |(?:ac(?:count)?)(?:\\sno\\.)?))\\s*([*|X\\d]+)(?!\\S*a\\/c)"                
+        },                 {                     "name": "totalAmountExtract",                    
+        "value": "(?<=Avl Bal\\s|Avl Bal:\\s*Rs\\.|Paytm Wallet- Rs |balance is Rs.
+        |credit limit is Rs.|Avl Bal is Rs.|Total Bal:\\s*Rs\\.\\s*)\\d+(?:,\\d+)*(\\.\\d+)?"                
+        },                 {                     "name": "totalAmountExtract2",                    
+        "value": "(?<=available limit is Rs[.,])\\d+(?:,\\d+)*\\.\\d+"                
+        }             ]         },         {             "name": "BanksSMSAdress",            
+        "stringLibraries": [                 {                     "name": "Bank
+        Of India",                     "value": "BOIIND"                 },                
+        {                     "name": "Paytm Wallet",                     "value":
+        "iPaytm"                 },                 {                     "name":
+        "Paytm Bank",                     "value": "PAYTMB"                 },                
+        {                     "name": "Central Bank",                     "value":
+        "CENTBK|BWSBMSMS|BTSBMSMS"                 },                 {                    
+        "name": "SBI",                     "value": "SBICRD|MYSBIC|SBIUP|cbssbi"                
+        },                 {                     "name": "Kotak Bank",                    
+        "value": "KOTAKB"                 },                 {                    
+        "name": "SLICE",                     "value": "SLCEIT"                 },                
+        {                     "name": "Bank of Baroda",                     "value":
+        "BOB"                 },                 {                     "name": "Axis
+        Bank",                     "value": "axisbk|axis"                 },                
+        {                     "name": "ICCI Bank",                     "value": "ICCI"                
+        },                 {                     "name": "Punjab National Bank ",                    
+        "value": "PNB"                 },                 {                     "name":
+        "Yes Bank ",                     "value": "yes|yesbk"                 },                
+        {                     "name": "Indusind Bank",                     "value":
+        "INDUSB|indusind"                 },                 {                    
+        "name": "HDFC Bank",                     "value": "HDFC"                
+        }             ]         },         {             "name": "BankAccountsPattern",            
+        "stringLibraries": [                 {                     "name": "Paytm",                    
+        "value": "\\b(?:paytm)\\b"                 },                 {                    
+        "name": "SBI CREDIT CARD",                     "value": "\\bSBI(?: Credit)?
+        Card\\b"                 },                 {                     "name":
+        "SLICE",                     "value": "\\b(?:SLICE)\\b"                 },                
+        {                     "name": "PPBL",                     "value": "\\b(?:PPBL)\\b"                
+        }             ]         },         {             "name": "CategoriesPattern",            
+        "stringLibraries": [                 {                     "name": "Food
+        & Drinks",                     "value": "swiggy|zomato|food|fresh|drink|coffe|sandwitch|tea|hot|cold|pizza|oven|dominos|drink"                
+        },                 {                     "name": "Bills",                    
+        "value": "airtel|vi|idea|bsnl|jio|electricity|gas|hp|petrol|water|bill|insurance|poilcy|service"                
+        },                 {                     "name": "EMI",                    
+        "value": "emi"                 },                 {                     "name":
+        "Movies",                     "value": "movie|ticket|picture|pvr|cinema|2d|3d|imax|gold|inox"                
+        },                 {                     "name": "Fuel",                    
+        "value": "pump|petrol|station|oil|petroleum|fuel"                 },                
+        {                     "name": "Groceries",                     "value": "mart|big
+        bazar|blinkit|dunzo|country|grofers|basket"                 },                
+        {                     "name": "Medical",                     "value": "med|health|hospital"                
+        },                 {                     "name": "Investment",                    
+        "value": "investment|funds|mutual"                 },                 {                    
+        "name": "Shopping",                     "value": "amazon|flipcart|ebay|order|shop"                
+        },                 {                     "name": "Transfer",                    
+        "value": "transfer"                 },                 {                    
+        "name": "Travel",                     "value": "train|flight|air|gofirst|bus|rapido|ola|uber|metro|bike|cab|taxi|transport|travel|ticket"                
+        }             ]         },         {             "name": "BudgetTips",            
+        "stringLibraries": [                 {                     "name": "Tip1",                    
+        "value": " Sticking to your budget requires discipline and commitment."                
+        },                 {                     "name": "Tip2",                    
+        "value": "Avoid impulsive spending and stay focused on your financial objectives."                
+        },                 {                     "name": "Tip3",                    
+        "value": "Experts often recommend saving at least 10-20% of your income.
+        "                 },                 {                     "name": "Tip4",                    
+        "value": "Avoid overestimating your income or underestimating your expenses."                
+        }             ]         },         {             "name": "WebLinks",            
+        "stringLibraries": [                 {                     "name": "NavedInsta",                    
+        "value": "https://www.instagram.com/"                 },                
+        {                     "name": "Freepik",                     "value": "https://www.freepik.com"                
+        },                 {                     "name": "Flaticon",                    
+        "value": "https://www.flaticon.com"                 },                 {                    
+        "name": "PrivacyPolicy",                     "value": "https://www.flaticon.com"                
+        }             ]         }     ] }'
+    intValues: []
+    floatValues: []
+    boolValues: []

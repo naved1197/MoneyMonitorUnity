@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8246d84198239d944af17758aaff54cd, type: 3}
+  m_Name: SMS Data Editor
+  m_EditorClassIdentifier: 
+  SMSDirectory:
+  - id: 0
+    address: CP-BOIIND
+    body: BOI UPI -VPA navedkh1197@okhdfcbank linked to Bank of India a/c XX6385
+      debited Rs.960 and credited to q810891053@ybl -Ref 316814837552
+    date: 2023-06-15 19:32:16
+  - id: 1
+    address: CP-BOIIND
+    body: BOI UPI -VPA navedkh1197@okhdfcbank linked to Bank of India a/c XX6385
+      debited Rs.516 and credited to q810891053@ybl -Ref 316814837552
+    date: 2023-06-15 19:32:16
+  - id: 2
+    address: CP-BOIIND
+    body: BOI UPI -VPA navedkh1197@okhdfcbank linked to Bank of India a/c XX6385
+      debited Rs.73 and credited to q810891053@ybl -Ref 316814837552
+    date: 2023-06-15 19:32:16
+  - id: 3
+    address: CP-BOIIND
+    body: BOI UPI -VPA navedkh1197@okhdfcbank linked to Bank of India a/c XX6385
+      debited Rs.1442 and credited to q810891053@ybl -Ref 316814837552
+    date: 2023-06-15 19:32:16
+  - id: 4
+    address: CP-BOIIND
+    body: BOI UPI -VPA navedkh1197@okhdfcbank linked to Bank of India a/c XX6385
+      debited Rs.501 and credited to q810891053@ybl -Ref 316814837552
+    date: 2023-06-15 19:32:16
+  - id: 5
+    address: CP-BOIIND
+    body: BOI UPI -VPA navedkh1197@okhdfcbank linked to Bank of India a/c XX6385
+      debited Rs.1395 and credited to q810891053@ybl -Ref 316814837552
+    date: 2023-06-15 19:32:16
+  - id: 6
+    address: CP-BOIIND
+    body: BOI UPI -VPA navedkh1197@okhdfcbank linked to Bank of India a/c XX6385
+      debited Rs.1405 and credited to q810891053@ybl -Ref 316814837552
+    date: 2023-06-15 19:32:16
+  - id: 7
+    address: CP-BOIIND
+    body: BOI UPI -VPA navedkh1197@okhdfcbank linked to Bank of India a/c XX6385
+      debited Rs.544 and credited to q810891053@ybl -Ref 316814837552
+    date: 2023-06-15 19:32:16
+  - id: 8
+    address: CP-BOIIND
+    body: BOI UPI -VPA navedkh1197@okhdfcbank linked to Bank of India a/c XX6385
+      debited Rs.1718 and credited to q810891053@ybl -Ref 316814837552
+    date: 2023-06-15 19:32:16
+  - id: 9
+    address: CP-BOIIND
+    body: BOI UPI -VPA navedkh1197@okhdfcbank linked to Bank of India a/c XX6385
+      debited Rs.1217 and credited to q810891053@ybl -Ref 316814837552
+    date: 2023-06-15 19:32:16
+  - id: 10
+    address: CP-BOIIND
+    body: BOI UPI -VPA navedkh1197@okhdfcbank linked to Bank of India a/c XX6385
+      debited Rs.122 and credited to q810891053@ybl -Ref 316814837552
+    date: 2023-06-15 19:32:16
+  - id: 11
+    address: CP-BOIIND
+    body: BOI UPI -VPA navedkh1197@okhdfcbank linked to Bank of India a/c XX6385
+      debited Rs.12 and credited to q810891053@ybl -Ref 316814837552
+    date: 2023-06-15 19:32:16
+  - id: 12
+    address: CP-BOIIND
+    body: BOI UPI -VPA navedkh1197@okhdfcbank linked to Bank of India a/c XX6385
+      debited Rs.1269 and credited to q810891053@ybl -Ref 316814837552
+    date: 2023-06-15 19:32:16
+  - id: 13
+    address: CP-BOIIND
+    body: BOI UPI -VPA navedkh1197@okhdfcbank linked to Bank of India a/c XX6385
+      debited Rs.1269 and credited to q810891053@ybl -Ref 316814837552
+    date: 2023-06-15 19:32:16
+  - id: 14
+    address: CP-BOIIND
+    body: BOI UPI -VPA navedkh1197@okhdfcbank linked to Bank of India a/c XX6385
+      debited Rs.1269 and credited to q810891053@ybl -Ref 316814837552
+    date: 2023-06-15 19:32:16
+  - id: 15
+    address: CP-BOIIND
+    body: BOI UPI -VPA navedkh1197@okhdfcbank linked to Bank of India a/c XX6385
+      debited Rs.1269 and credited to q810891053@ybl -Ref 316814837552
+    date: 2023-06-15 19:32:16
+  BankSMS: []
+  Transactions: []
+  Accounts: []
+  LatestSMS:
+    id: 
+    address: 
+    body: 
+    date: 
+  IsInitialised: 0
+  TotalMessageCount: 0
+  BudgetValue: -1
+  LastSyncDate: 
+  Settings:
+    ReadSMS: 1
+    Notification: 1
+    Sound: 1
+    Vibration: 1

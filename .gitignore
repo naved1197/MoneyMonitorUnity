@@ -9,7 +9,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
-
+/[Aa]ssets/[Cc]razy[Oo]ptimizer/
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
@@ -70,3 +70,17 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+*.keystore
+/Assets/google-services.json
+/Assets/google-services.json.meta
+/Assets/StreamingAssets/google-services-desktop.json
+/Assets/StreamingAssets/google-services-desktop.json.meta
+
+Assets/Firebase/Plugins/x86_64/FirebaseCppApp-11_6_0.bundle.meta
+Assets/Firebase/Plugins/x86_64/FirebaseCppApp-11_6_0.bundle
+Assets/StreamingAssets.meta
+Assets/Plugins/Android/FirebaseApp.androidlib/res/values/google-services.xml
+Assets/Editor/KeyStorePasswordProvider.cs
+Assets/Editor/KeyStorePasswordProvider.cs.meta
+
+

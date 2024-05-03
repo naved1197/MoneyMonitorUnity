@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e083637ab6308ca4cbf6c389bd1e47c4, type: 3}
+  m_Name: App Resources
+  m_EditorClassIdentifier: 
+  drawablesResources:
+  - name: DebitCategories
+    spriteResources:
+    - name: Not Set
+      sprite: {fileID: -2348020998271689452, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.9333334, g: 0.27058825, b: 0.050980397, a: 1}
+    - name: Bills
+      sprite: {fileID: 5128308085635147788, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.1254902, g: 0.72156864, b: 0.38431376, a: 1}
+    - name: EMI
+      sprite: {fileID: -1086016604890880716, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.6117647, g: 0.6039216, b: 0.6156863, a: 1}
+    - name: Movies
+      sprite: {fileID: -8551871311840649682, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.49411768, g: 0.5372549, b: 1, a: 1}
+    - name: Food & Drinks
+      sprite: {fileID: -4204983704102195157, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.90196085, g: 0.2392157, b: 0.48627454, a: 1}
+    - name: Fuel
+      sprite: {fileID: 920209902076864469, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.9960785, g: 0.6745098, b: 0, a: 1}
+    - name: Groceries
+      sprite: {fileID: -5779042895186559116, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.53333336, g: 0.7607844, b: 0.41960788, a: 1}
+    - name: Medical
+      sprite: {fileID: 7429106465570904562, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.8941177, g: 0.2627451, b: 0, a: 1}
+    - name: Investment
+      sprite: {fileID: -5359399013147918090, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.47058827, g: 0.5568628, b: 0.60784316, a: 1}
+    - name: Shopping
+      sprite: {fileID: 1733761960533867403, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.003921569, g: 0.7176471, b: 0.8352942, a: 1}
+    - name: Transfer
+      sprite: {fileID: 3853303555530820917, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.6784314, g: 0.2392157, b: 0.8117648, a: 1}
+    - name: Travel
+      sprite: {fileID: 8582592621933518726, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.6039216, g: 0.45882356, b: 0.86666673, a: 1}
+    - name: Other
+      sprite: {fileID: 3626265464486069482, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.9686275, g: 0.5058824, b: 0.15686275, a: 1}
+  - name: CreditCategories
+    spriteResources:
+    - name: Not Set
+      sprite: {fileID: -2348020998271689452, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.9333334, g: 0.27058825, b: 0.050980397, a: 1}
+    - name: Salary
+      sprite: {fileID: 5128308085635147788, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.1254902, g: 0.72156864, b: 0.38431376, a: 1}
+    - name: Cash Back
+      sprite: {fileID: -1086016604890880716, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.6117647, g: 0.6039216, b: 0.6156863, a: 1}
+    - name: Freelance
+      sprite: {fileID: -5359399013147918090, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.49411768, g: 0.5372549, b: 1, a: 1}
+    - name: Investment
+      sprite: {fileID: 247221364172629747, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.90196085, g: 0.2392157, b: 0.48627454, a: 1}
+    - name: Investment
+      sprite: {fileID: -5359399013147918090, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.47058827, g: 0.5568628, b: 0.60784316, a: 1}
+    - name: Other
+      sprite: {fileID: 3626265464486069482, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 0.9686275, g: 0.5058824, b: 0.15686275, a: 1}
+  - name: BankIcons
+    spriteResources:
+    - name: Bank Of India
+      sprite: {fileID: -1784866502, guid: 7f61d26b642b967428ba541409631421, type: 3}
+      defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    - name: Paytm Bank
+      sprite: {fileID: 1941632912, guid: 7f61d26b642b967428ba541409631421, type: 3}
+      defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    - name: Paytm Wallet
+      sprite: {fileID: 1941632912, guid: 7f61d26b642b967428ba541409631421, type: 3}
+      defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    - name: Central Bank
+      sprite: {fileID: 1228918022, guid: 7f61d26b642b967428ba541409631421, type: 3}
+      defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    - name: SBI
+      sprite: {fileID: 121977282, guid: 7f61d26b642b967428ba541409631421, type: 3}
+      defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    - name: Kotak Bank
+      sprite: {fileID: 1559700689, guid: 7f61d26b642b967428ba541409631421, type: 3}
+      defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    - name: SLICE
+      sprite: {fileID: -1158715470, guid: 7f61d26b642b967428ba541409631421, type: 3}
+      defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    - name: Cash
+      sprite: {fileID: 21300000, guid: 885dd2a73338bf44592e028395859de3, type: 3}
+      defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    - name: Bank of Baroda
+      sprite: {fileID: -1661093694, guid: 7f61d26b642b967428ba541409631421, type: 3}
+      defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    - name: Axis Bank
+      sprite: {fileID: -1521410541, guid: 7f61d26b642b967428ba541409631421, type: 3}
+      defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    - name: ICCI Bank
+      sprite: {fileID: 3505157, guid: 7f61d26b642b967428ba541409631421, type: 3}
+      defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    - name: 'Punjab National Bank '
+      sprite: {fileID: 58958500, guid: 7f61d26b642b967428ba541409631421, type: 3}
+      defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    - name: 'Yes Bank '
+      sprite: {fileID: -1231238865, guid: 7f61d26b642b967428ba541409631421, type: 3}
+      defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    - name: Indusind Bank
+      sprite: {fileID: -517565457, guid: 7f61d26b642b967428ba541409631421, type: 3}
+      defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    - name: HDFC Bank
+      sprite: {fileID: 1023820421, guid: 7f61d26b642b967428ba541409631421, type: 3}
+      defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  - name: AppGraphics
+    spriteResources:
+    - name: AddNew
+      sprite: {fileID: 6164140205718338479, guid: 80d6ac6dc132723429872a30a6b7a397, type: 3}
+      defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  stringResources:
+  - name: System
+    stringLibraries:
+    - name: SavePath
+      value: /game_data
+  - name: CheckPatterns
+    stringLibraries:
+    - name: accountPattern
+      value: \b(?:ac|a/c|paytm|amazon pay|upi|CARD|account)\b
+    - name: creditPattern
+      value: \b(?:credited|received|repayment|credit by)\b
+    - name: debitPattern
+      value: \b(?:debited|paid|sent|transaction|spent|transferred from)\b
+    - name: amountPattern
+      value: 'rs|usd|inr '
+    - name: blackListPattern
+      value: \b(?:HURRRY|SOON|EXPIRES|will be|can be|eligible|hi|attachments|due|IPO|Fantasy|win|declined|off|cashback|choose|loan|Bonus|Prize|working|Instant|Free|recharge|Shop|Install|save|claim|Register)\b
+  - name: ExtractPatterns
+    stringLibraries:
+    - name: amountPatternExtract
+      value: (?<=\bRs|INR |Rs.\s?)\d+(?:,\d+)*(\.\d+)?
+    - name: debitAccountPatternExtract
+      value: (?<=(credited to|at|paid.*? to|sent to|by|to:)\s?).*?(?=\s(with|-Ref|UPI
+        |against|from|on|total))
+    - name: creditAccountPatternExtract
+      value: (?<=(by|to:|Ref No|transferred to)\s?).*?(?=\s(of|with|-Ref|UPI |against|from|on|total|avl
+        balance))
+    - name: accountNumberPatternExtract
+      value: (?<=(?i)\b(?:a\/c|credit card|ac-|a\/c no. |Card no. |account|card ending
+        |a\/c ...|Card no |(?:ac(?:count)?)(?:\sno\.)?))\s*([*|X\d]+)(?!\S*a\/c)
+    - name: totalAmountExtract
+      value: (?<=Avl Bal\s|Avl Bal:\s*Rs\.|Paytm Wallet- Rs |balance is Rs. |credit
+        limit is Rs.|Avl Bal is Rs.|Total Bal:\s*Rs\.\s*)\d+(?:,\d+)*(\.\d+)?
+    - name: totalAmountExtract2
+      value: (?<=available limit is Rs[.,])\d+(?:,\d+)*\.\d+
+  - name: BanksSMSAdress
+    stringLibraries:
+    - name: Bank Of India
+      value: BOIIND
+    - name: Paytm Wallet
+      value: iPaytm
+    - name: Paytm Bank
+      value: PAYTMB
+    - name: Central Bank
+      value: CENTBK|BWSBMSMS|BTSBMSMS
+    - name: SBI
+      value: SBICRD|MYSBIC|SBIUP|cbssbi
+    - name: Kotak Bank
+      value: KOTAKB
+    - name: SLICE
+      value: SLCEIT
+    - name: Bank of Baroda
+      value: BOB
+    - name: Axis Bank
+      value: axisbk|axis
+    - name: ICCI Bank
+      value: ICCI
+    - name: 'Punjab National Bank '
+      value: PNB
+    - name: 'Yes Bank '
+      value: yes|yesbk
+    - name: Indusind Bank
+      value: INDUSB|indusind
+    - name: HDFC Bank
+      value: HDFC
+  - name: BankAccountsPattern
+    stringLibraries:
+    - name: Paytm
+      value: \b(?:paytm)\b
+    - name: SBI CREDIT CARD
+      value: '\bSBI(?: Credit)? Card\b'
+    - name: SLICE
+      value: \b(?:SLICE)\b
+    - name: PPBL
+      value: \b(?:PPBL)\b
+  - name: CategoriesPattern
+    stringLibraries:
+    - name: Food & Drinks
+      value: swiggy|zomato|food|fresh|drink|coffe|sandwitch|tea|hot|cold|pizza|oven|dominos|drink
+    - name: Bills
+      value: airtel|vi|idea|bsnl|jio|electricity|gas|hp|petrol|water|bill|insurance|poilcy|service
+    - name: EMI
+      value: emi
+    - name: Movies
+      value: movie|ticket|picture|pvr|cinema|2d|3d|imax|gold|inox
+    - name: Fuel
+      value: pump|petrol|station|oil|petroleum|fuel
+    - name: Groceries
+      value: mart|big bazar|blinkit|dunzo|country|grofers|basket
+    - name: Medical
+      value: med|health|hospital
+    - name: Investment
+      value: investment|funds|mutual
+    - name: Shopping
+      value: amazon|flipcart|ebay|order|shop
+    - name: Transfer
+      value: transfer
+    - name: Travel
+      value: train|flight|air|gofirst|bus|rapido|ola|uber|metro|bike|cab|taxi|transport|travel|ticket
+  - name: BudgetTips
+    stringLibraries:
+    - name: Tip1
+      value: ' Sticking to your budget requires discipline and commitment.'
+    - name: Tip2
+      value: Avoid impulsive spending and stay focused on your financial objectives.
+    - name: Tip3
+      value: 'Experts often recommend saving at least 10-20% of your income. '
+    - name: Tip4
+      value: Avoid overestimating your income or underestimating your expenses.
+  - name: WebLinks
+    stringLibraries:
+    - name: NavedInsta
+      value: https://www.instagram.com/
+    - name: Freepik
+      value: https://www.freepik.com
+    - name: Flaticon
+      value: https://www.flaticon.com
+    - name: PrivacyPolicy
+      value: https://sites.google.com/view/cubehole/money-monitor/privacy-policy
+  ColorResources:
+  - name: AppColors
+    colorResources:
+    - name: Black
+      color: {r: 0.03529412, g: 0.047058824, b: 0.0627451, a: 1}
+    - name: White
+      color: {r: 0.91764706, g: 0.91764706, b: 0.93333334, a: 1}
+    - name: Orange
+      color: {r: 0.9333334, g: 0.27058825, b: 0.050980397, a: 1}
+    - name: Green
+      color: {r: 0.34509805, g: 0.76862746, b: 0.13725491, a: 1}
+  audioResources:
+  - name: UI
+    audioResources:
+    - name: buttonClick
+      clip: {fileID: 8300000, guid: 3159466d6fbd40b42b0d686d2bd2a584, type: 3}
+      volume: 0.3
+      pitchChange: 0
